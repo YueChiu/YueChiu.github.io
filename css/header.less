@@ -1,0 +1,66 @@
+body {
+  font-family: PingFang SC, '\82F9\65B9', Microsoft YaHei,
+    '\5FAE\8F6F\96C5\9ED1', Helvetica, Tahoma, Arial, sans-serif !important;
+}
+#menu_container {
+  text-align: right;
+  height: 60px;
+  line-height: 60px;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+  &::before {
+    content: '';
+    position: absolute;
+    width: 57px;
+    height: 27px;
+    background: url(../images/index-top-header.png);
+    left: 129px;
+    top: 14px;
+  }
+}
+.sf-menu {
+  float: none !important;
+  display: block;
+  position: relative;
+  font-size: 0;
+  a.active {
+    color: white !important;
+  }
+  a {
+    display: block;
+    position: relative;
+    padding: 0 !important;
+    font-size: 18px !important;
+    text-shadow: none !important;
+    color: #c9c2c2;
+    margin: 0 60px 0 0 !important;
+    text-decoration-line: none !important;
+    &:hover {
+      color: white !important;
+      position: relative;
+    }
+  }
+}
+.sf-menu {
+  li {
+    float: none !important;
+    display: inline-block !important;
+    transform: translateY(4px);
+  }
+}
+
+.common-footer {
+  padding: 0;
+  background: white;
+  margin: 0;
+  font-size: 14px;
+  color: #222;
+  line-height: 60px;
+  height: 60px;
+  text-align: center;
+  border: none;
+}

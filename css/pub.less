@@ -1,0 +1,104 @@
+.pub-page-index {
+  background: white !important;
+  header {
+    position: relative;
+    background: none !important;
+    height: 400px;
+    overflow: hidden;
+    .top-header-bg {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+      min-height: 400px;
+    }
+  }
+  .common-footer {
+    background: rgba(239, 240, 244, 0.73);
+  }
+  .content {
+    position: relative;
+    .index-dot-decorate {
+      position: absolute;
+      width: 190px;
+      height: 190px;
+      z-index: 2;
+    }
+    .dot-decorate-1 {
+      top: 74px;
+      right: -51px;
+    }
+    .dot-decorate-2 {
+      top: 387px;
+      left: -98px;
+    }
+    .dot-decorate-3 {
+      top: 1000px;
+      right: -51px;
+    }
+    .pub-item {
+      font-size: 0;
+      padding-bottom: 20px;
+      ul {
+        margin: 0;
+      }
+      .pub-title {
+        font-size: 28px;
+        line-height: 28px;
+        color: #222;
+        padding: 0 0 36px 0;
+      }
+      .item-relative-imgs {
+        display: inline-block;
+        vertical-align: middle;
+        width: 320px;
+        img {
+          margin-bottom: 20px;
+        }
+      }
+      .item-list.item-list-with-img {
+        display: inline-block;
+        vertical-align: top;
+        width: calc(100% - 320px - 55px);
+        padding-right: 55px;
+      }
+      .item-list {
+        li {
+          color: #222;
+          background: none;
+          padding: 0;
+          font-size: 16px;
+          line-height: 1.5;
+          position: relative;
+          padding-left: 16px;
+          margin-bottom: 20px;
+          &::before {
+            content: '';
+            width: 4px;
+            height: 20px;
+            border-radius: 2px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: linear-gradient(
+              270deg,
+              rgba(253, 171, 62, 1) 0%,
+              rgba(254, 53, 70, 1) 100%
+            );
+          }
+        }
+      }
+    }
+  }
+  #site_content {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    .content {
+      padding: 0 20%;
+      margin: 50px 0 0 0;
+      width: 60%;
+    }
+  }
+}
