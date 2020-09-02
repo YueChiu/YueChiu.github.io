@@ -1,0 +1,267 @@
+.home-page-index #site_content {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: white;
+  max-width: 100% !important;
+  font-size: 0;
+  position: relative;
+}
+.home-page-index .index-dot-decorate {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  z-index: 2;
+}
+.home-page-index .dot-decorate-1 {
+  left: 12px;
+  top: 20px;
+}
+.home-page-index header {
+  position: relative;
+  background: none !important;
+  height: 500px;
+  overflow: hidden;
+}
+.home-page-index .top-header-bg {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  min-height: 500px;
+}
+.home-page-index .info {
+  position: relative;
+  margin-left: 130px;
+  margin-top: 50px;
+}
+.home-page-index .info .owner {
+  background: linear-gradient(270deg, #fdab3e 0%, #fe3546 100%);
+  border-radius: 12px;
+  line-height: 20px;
+  padding: 12px 20px;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  display: inline-block;
+}
+.home-page-index .info .welcome-tip {
+  height: 40px;
+  font-size: 28px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 40px;
+  padding: 0;
+  margin-top: 10px;
+}
+.home-page-index .info .profile {
+  width: 485px;
+  height: 140px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 28px;
+  padding: 0;
+  margin-top: 14px;
+  margin-bottom: 35px;
+}
+.home-page-index .info .profile-pages .profile-pages-item {
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 35px;
+  vertical-align: middle;
+}
+.home-page-index .info .profile-pages .profile-pages-item img {
+  width: 50px;
+  height: 50px;
+  transition: all 0.6s ease;
+  display: inline-block;
+}
+.home-page-index .info .profile-pages .profile-pages-item img:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 4px 14px 6px rgba(82, 92, 108, 0.16);
+}
+.home-page-index .pohto-decorate {
+  margin-left: 10%;
+  margin-top: 85px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+.home-page-index .pohto-decorate::before {
+  content: '';
+  position: absolute;
+  width: 350px;
+  height: 435px;
+  background: #f1f1f2;
+  border-radius: 5px;
+  top: -25px;
+  left: -20px;
+}
+.home-page-index .pohto-decorate .my-photo-wrap {
+  width: 368px;
+  height: 429px;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.home-page-index .pohto-decorate .my-photo-wrap img {
+  width: unset;
+  height: 100%;
+  margin: 0 auto;
+}
+.home-page-index .about-me-content {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100% - 368px - 100px - 20%);
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-right: 10%;
+}
+.home-page-index .about-me-content .about-me-title {
+  font-size: 24px;
+  line-height: 24px;
+  padding: 0;
+  margin-bottom: 32px;
+  color: #222222;
+  font-weight: 500;
+}
+.home-page-index .about-me-content .about-me-title span {
+  display: inline-block;
+}
+.home-page-index .about-me-content .about-me-title::after {
+  content: '';
+  display: block;
+  width: 70px;
+  height: 6px;
+  background: linear-gradient(270deg, #fdab3e 0%, #fe3546 100%);
+  margin-top: 20px;
+}
+.home-page-index .about-me-content p,
+.home-page-index .about-me-content li {
+  font-size: 16px;
+  color: #222;
+  line-height: 1.5;
+  padding: 0;
+}
+.home-page-index .interest-and-focuson .title-tip {
+  margin-top: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.home-page-index .interest-and-focuson .items-wrap {
+  margin: 0;
+  max-width: 90%;
+}
+.home-page-index .interest-and-focuson .items-wrap li {
+  list-style: none;
+  display: inline-block;
+  line-height: 16px;
+  margin-bottom: 15px;
+  min-width: 250px;
+}
+.home-page-index .interest-and-focuson .items-wrap li::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/search-item-icon.png);
+  vertical-align: middle;
+  margin-right: 6px;
+  background-size: 100% 100%;
+}
+.home-page-index .useful-links {
+  background: rgba(239, 240, 244, 0.73);
+  padding-top: 55px;
+  margin-top: 62px;
+  position: relative;
+}
+.home-page-index .useful-links .dot-decorate-2 {
+  right: 12px;
+  top: -75px;
+}
+.home-page-index .useful-links .useful-link-tip {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 500;
+  color: #222;
+  line-height: 1;
+  padding: 0;
+  position: relative;
+  margin-bottom: 64px;
+}
+.home-page-index .useful-links .useful-link-tip .text-wrap {
+  position: relative;
+  z-index: 2;
+}
+.home-page-index .useful-links .useful-link-tip::after {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: linear-gradient(270deg, #fdab3e 0%, #fe3546 100%);
+  position: absolute;
+  left: 50%;
+  top: -8px;
+  margin-left: 63px;
+}
+.home-page-index .useful-links .links-wrap {
+  margin: 0;
+  font-size: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0 100px;
+}
+.home-page-index .useful-links .links-wrap li {
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  height: 120px;
+  margin: 0 20px 50px;
+  padding: 0;
+  background: #ffffff;
+  box-shadow: 0px 2px 24px 4px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  transition: all 0.6s ease;
+  position: relative;
+}
+.home-page-index .useful-links .links-wrap li:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 4px 14px 6px rgba(82, 92, 108, 0.16);
+}
+.home-page-index .useful-links .links-wrap li::before {
+  content: '';
+  display: block;
+  width: 38px;
+  height: 38px;
+  background-image: url(../images/link-icon.png);
+  margin: 0 auto;
+  margin-top: 18px;
+}
+.home-page-index .useful-links .links-wrap li a {
+  font-size: 20px;
+  color: #222;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: calc(100% - 30px);
+  display: inline-block;
+  text-overflow: ellipsis;
+  padding: 0 15px;
+  line-height: 160px;
+  vertical-align: top;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

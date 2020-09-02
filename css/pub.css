@@ -1,0 +1,98 @@
+.pub-page-index {
+  background: white !important;
+}
+.pub-page-index header {
+  position: relative;
+  background: none !important;
+  height: 400px;
+  overflow: hidden;
+}
+.pub-page-index header .top-header-bg {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  min-height: 400px;
+}
+.pub-page-index .common-footer {
+  background: rgba(239, 240, 244, 0.73);
+}
+.pub-page-index .content {
+  position: relative;
+}
+.pub-page-index .content .index-dot-decorate {
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  z-index: 2;
+}
+.pub-page-index .content .dot-decorate-1 {
+  top: 74px;
+  right: -51px;
+}
+.pub-page-index .content .dot-decorate-2 {
+  top: 387px;
+  left: -98px;
+}
+.pub-page-index .content .dot-decorate-3 {
+  top: 1000px;
+  right: -51px;
+}
+.pub-page-index .content .pub-item {
+  font-size: 0;
+  padding-bottom: 20px;
+}
+.pub-page-index .content .pub-item ul {
+  margin: 0;
+}
+.pub-page-index .content .pub-item .pub-title {
+  font-size: 28px;
+  line-height: 28px;
+  color: #222;
+  padding: 0 0 36px 0;
+}
+.pub-page-index .content .pub-item .item-relative-imgs {
+  display: inline-block;
+  vertical-align: middle;
+  width: 320px;
+}
+.pub-page-index .content .pub-item .item-relative-imgs img {
+  margin-bottom: 20px;
+}
+.pub-page-index .content .pub-item .item-list.item-list-with-img {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100% - 320px - 55px);
+  padding-right: 55px;
+}
+.pub-page-index .content .pub-item .item-list li {
+  color: #222;
+  background: none;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  position: relative;
+  padding-left: 16px;
+  margin-bottom: 20px;
+}
+.pub-page-index .content .pub-item .item-list li::before {
+  content: '';
+  width: 4px;
+  height: 20px;
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(270deg, #fdab3e 0%, #fe3546 100%);
+}
+.pub-page-index #site_content {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+.pub-page-index #site_content .content {
+  padding: 0 20%;
+  margin: 50px 0 0 0;
+  width: 60%;
+}
